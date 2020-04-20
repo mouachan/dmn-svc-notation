@@ -60,6 +60,10 @@
       <groupId>org.kie.kogito</groupId>
       <artifactId>monitoring-prometheus-addon</artifactId>
     </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-container-image-s2i</artifactId>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
