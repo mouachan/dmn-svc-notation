@@ -56,6 +56,10 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-container-image-docker</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.kie.kogito</groupId>
+      <artifactId>monitoring-prometheus-addon</artifactId>
+    </dependency>
   </dependencies>
   <build>
     <plugins>

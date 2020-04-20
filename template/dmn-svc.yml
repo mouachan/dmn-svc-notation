@@ -1,7 +1,7 @@
 apiVersion: template.openshift.io/v1
 kind: Template
 labels:
-  template: dmn-svc-template
+  template: dmn-svc
 metadata:
   annotations:
     description: Template to create application with DMN service
@@ -10,7 +10,7 @@ metadata:
     openshift.io/provider-display-name: Red Hat, Inc.
     tags: quarkus,java,kogito,springboot,dmn
     version: "1.1"
-  name: dmn-svc-template
+  name: dmn-svc
 objects:
 - apiVersion: apps.openshift.io/v1
   kind: DeploymentConfig
@@ -86,8 +86,6 @@ objects:
         from:
           kind: ImageStreamTag
           name: ${APP_NAME}:latest
-          namespace: credit
-        lastTriggeredImage: image-registry.openshift-image-registry.svc:5000/credit/dmn-svc-notation@sha256:16a21a4da646cf9ca436c059517ba8763baf5aa87a81a477c084ca910ff599e4
       type: ImageChange
     - type: ConfigChange
 - apiVersion: v1
@@ -116,6 +114,9 @@ objects:
       app: ${APP_NAME}
       deploymentconfig: ${APP_NAME}
 parameters:
+- displayName: Namespace
+  name: NAMESPACE
+  required: true
 - displayName: Application Name
   name: APP_NAME
   required: true
