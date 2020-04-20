@@ -114,9 +114,6 @@ objects:
       app: ${APP_NAME}
       deploymentconfig: ${APP_NAME}
 parameters:
-- displayName: Namespace
-  name: NAMESPACE
-  required: true
 - displayName: Application Name
   name: APP_NAME
   required: true
