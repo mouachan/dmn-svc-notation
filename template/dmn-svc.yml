@@ -98,7 +98,7 @@ objects:
     name: ${APP_NAME}
   spec:
     ports:
-    - name: HTTP-PORT
+    - name: 8080-http
       port: 8080
       protocol: TCP
       targetPort: 8083
