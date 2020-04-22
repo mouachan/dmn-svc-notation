@@ -15,7 +15,7 @@ objects:
   - kind: BuildConfig
     apiVersion: build.openshift.io/v1
     metadata:
-      name: dmn-svc-notation
+      name: dmn-svc-notation-bc
       labels:
         app: dmn-svc-notation
         app.kubernetes.io/component: dmn-svc-notation
