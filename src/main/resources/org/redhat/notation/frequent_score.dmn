@@ -38,13 +38,13 @@
       <dmn:annotation name="annotation-1"/>
       <dmn:rule id="_698274C0-F55A-45E6-9A43-5CF21F353750">
         <dmn:inputEntry id="_57E6A808-9875-44F6-872C-D90E5BBAF66D">
-          <dmn:text>&gt; 500</dmn:text>
+          <dmn:text>&gt; 600</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_B190715F-7484-4C39-A7A9-963EFBA2E717">
           <dmn:text>"Silver"</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_77333DF3-270E-4B43-8F60-A4C676B43998">
-          <dmn:text>"bouuuu"</dmn:text>
+          <dmn:text>"bouuuu v2"</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
           <dmn:text/>
@@ -52,13 +52,13 @@
       </dmn:rule>
       <dmn:rule id="_318520AB-7687-43E0-BA86-D2A046C622D4">
         <dmn:inputEntry id="_C54BB9EE-8ECB-4F4C-86C7-2BB38F96F103">
-          <dmn:text>&gt; 500</dmn:text>
+          <dmn:text>&gt; 600</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_B81A3E96-74CF-45CE-BAB0-AA9629C08C71">
           <dmn:text>"Gold"</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_EB8AA453-5AB9-41FF-A279-DE587A3FA1FB">
-          <dmn:text>"Yeahhhh"</dmn:text>
+          <dmn:text>"Yeahhhh v2"</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
           <dmn:text/>
