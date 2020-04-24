@@ -1,7 +1,7 @@
 apiVersion: template.openshift.io/v1
 kind: Template
 labels:
-  template: dmn-svc
+  template: dmn-svc-bc
 metadata:
   annotations:
     description: Template to build application with DMN service
@@ -18,12 +18,6 @@ objects:
       name: dmn-svc-notation-bc
       labels:
         app: dmn-svc-notation
-        app.kubernetes.io/component: dmn-svc-notation
-        app.kubernetes.io/instance: dmn-svc-notation
-        app.kubernetes.io/name: java
-        app.kubernetes.io/part-of: dmn-svc-notation-app
-        app.openshift.io/runtime: java
-        app.openshift.io/runtime-version: '8'
     spec:
       nodeSelector: null
       output:
